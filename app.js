@@ -13,7 +13,7 @@ function start() {
 
     one = prompt('Is my name Joseph?');
     one = one.toLowerCase()
-    console.log(one)
+    // console.log(one)
     if ((one === 'yes') || (one === 'y')) {
         alert('Correct');
     
@@ -24,7 +24,7 @@ function start() {
        
     two = prompt('Is one of my dogs named Wallace?');
     two = two.toLowerCase()
-    console.log(two)
+    // console.log(two)
     if ((two === 'no') || (two === 'n')) {
         alert('Correct');
     
@@ -35,7 +35,7 @@ function start() {
        
     three = prompt('Do I like to walk?');
     three= three.toLowerCase()
-    console.log(three)
+    // console.log(three)
     if ((three === 'yes') || (three === 'y')) {
         alert('Correct');
     
@@ -45,7 +45,7 @@ function start() {
     }
     four = prompt('Is my brother a software developer?');
     four = four.toLowerCase()
-    console.log(four)
+    // console.log(four)
     if ((four === 'yes') || (four === 'y')) {
         alert('Correct');
     
@@ -55,7 +55,7 @@ function start() {
     }
     five = prompt('Did I work in retail?');
     five = five.toLowerCase()
-    console.log(five)
+    // console.log(five)
     if ((five === 'no') || (five === 'n')) {
         alert('Correct');
     
@@ -63,4 +63,5 @@ function start() {
     else {
         alert('incorrect')
     }
+    alert('Thanks for playing ' + person)
 }
