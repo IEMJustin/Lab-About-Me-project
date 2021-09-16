@@ -91,12 +91,12 @@ while (count <= 4) {
     }
 }
 let iceCream = ["mint","vanilla","sherbert"];
-console.log(iceCream)
+    // console.log(iceCream)
     while (countTwo <= 6) {
     countTwo++
     seven = prompt('Guess one of my favorite ice cream flavors.')
     seven = seven.toLowerCase()
-    console.log(seven) 
+    // console.log(seven) 
     if (iceCream.indexOf(seven)!== -1){
         alert('Correct')
         countTwo = 7
@@ -105,6 +105,9 @@ console.log(iceCream)
     else {
         alert('incorrect')
     }
+    }
+    if (countTwo = 7) { 
+        alert('Correct Answers were ' + iceCream)
     }
     alert('You scored ' + score + '/7')
 
