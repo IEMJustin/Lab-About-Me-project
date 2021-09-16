@@ -16,7 +16,7 @@ function start() {
     let countTwo = 1
     let score = 0
    
-
+function qOne(){
 one = prompt('Is my name Joseph?');
 one = one.toLowerCase()
 // console.log(one)
@@ -27,7 +27,9 @@ if ((one === 'yes') || (one === 'y')) {
 else {
     alert('incorrect')
 }
-   
+}
+
+function qTwo(){
 two = prompt('Is one of my dogs named Wallace?');
 two = two.toLowerCase()
 // console.log(two)
@@ -38,7 +40,9 @@ if ((two === 'no') || (two === 'n')) {
 else {
     alert('incorrect')
 }
-   
+}
+
+function qThree(){
 three = prompt('Do I like to walk?');
 three= three.toLowerCase()
 // console.log(three)
@@ -49,6 +53,9 @@ if ((three === 'yes') || (three === 'y')) {
 else {
     alert('incorrect')
 }
+}
+
+function qFour(){
 four = prompt('Is my brother a software developer?');
 four = four.toLowerCase()
 // console.log(four)
@@ -59,6 +66,8 @@ if ((four === 'yes') || (four === 'y')) {
 else {
     alert('incorrect')
 }
+}
+function qFive(){
 five = prompt('Did I work in retail?');
 five = five.toLowerCase()
 // console.log(five)
@@ -69,8 +78,9 @@ if ((five === 'no') || (five === 'n')) {
 else {
     alert('incorrect')
 }
-
+}
 // console.log(six)
+function qSix(){
 while (count <= 4) {
     count++
     six = prompt('What is my age?');
@@ -90,6 +100,8 @@ while (count <= 4) {
         alert('incorrect')
     }
 }
+}
+function qSeven(){
 let iceCream = ["mint","vanilla","sherbert"];
     // console.log(iceCream)
     while (countTwo <= 6) {
@@ -109,8 +121,16 @@ let iceCream = ["mint","vanilla","sherbert"];
     if (countTwo = 7) { 
         alert('Correct Answers were ' + iceCream)
     }
+}
+qOne();
+qTwo();
+qThree();
+qFour();
+qFive();
+qSix();
+qSeven();
+
     alert('You scored ' + score + '/7')
 
     alert('Thanks for playing ' + person)
 }
-
