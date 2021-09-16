@@ -22,5 +22,14 @@ h2 {
 button{
         margin: 0;
         position: absolute;
-        left: 49.5%;
+        left: 48.3%;
+}
+li {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h3 {
+    text-align: center;
+    color: white;
 }
